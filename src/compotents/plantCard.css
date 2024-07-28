@@ -1,0 +1,91 @@
+.plant-card{
+    border: 4px solid black;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 20px ;
+    position: relative;
+}
+.plant-title{
+    font-size: 20px;
+}
+
+.plant-image{
+    height: 70px;
+    width: 100px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.plant-card-action-btn{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 3px 20px;
+    margin: 0 20px;
+    text-decoration: none;
+} */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.plant-card {
+    border: 1px solid #ccccccf8;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9f2;
+}
+.plant-image {
+    max-width: 100px;
+    height: auto;
+    margin-right: 100px;
+    vertical-align: middle;
+}
+.plant-details {
+    display: inline-block;
+    vertical-align: middle;
+}
+.plant-name {
+    font-weight: bold;
+}
+.plant-category {
+    color: #666;
+}
+.plant-price {
+    font-size: 0.9em;
+    color: #0a5370;
+}
+.plant-description {
+    margin-top: 5px;
+    color: #333333ed;
+}
+.button-container {
+    margin-top: 20px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #0462c7;
+}
+.delete-button {
+    background-color: #ec071d;
+}
+.delete-button:hover {
+    background-color: #eb1a2f;
+}
